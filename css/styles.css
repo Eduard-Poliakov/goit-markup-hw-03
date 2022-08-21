@@ -223,13 +223,9 @@ body {
 
 .pros-list{
     display: flex;
+    gap: 30px;
       
 }
-
-.pros-item + .pros-item{
-    margin-left: 30px;
-}
-
 
 .pros-item>h3{
     font-weight: 700;
@@ -250,6 +246,7 @@ body {
 
 .areas-list{
     display: flex;
+    gap: 30px;
    
 }
 
@@ -257,9 +254,6 @@ body {
     flex-basis: calc((100% - 60px) / 3);
 }
 
-.areas-item + .areas-item{
-    margin-left: 30px;
-}
 
 .areas-header {
     font-weight: 700;
@@ -279,6 +273,8 @@ body {
 
 .team-list{
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
    
 }
 
@@ -292,9 +288,6 @@ body {
 
 }
 
-.team-item+.team-item {
-    margin-left: 30px;
-}
 
 .team-card{
     padding-top: 30px;
@@ -388,13 +381,13 @@ font-style: normal
 .card-list{
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
+    gap: 30px;
 }
 
 
 .card-item {
-    flex-basis: calc((100% - 90px) / 3);
-    margin: 15px;
+    flex-basis: calc((100% - 60px) / 3);
+    
 }
 
 .description{
